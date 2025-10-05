@@ -1,0 +1,89 @@
+/**
+* @name CounterStrike
+* @author NEBULYS
+* @authorLink https://github.com/GoldenLys
+* @version 1.5
+* @invite SBuYeHh
+* @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
+* @website https://nebulys.eu/themegen
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css"); 
+
+:root {
+    /* GENERAL */
+    --AppName: "CounterStrike";
+    --Watermark: "Swan's Strix G16";
+    --font: "Quicksand", "emoji", sans-serif;
+    --logo: url("https://goldenlys.github.io/WizardUI/images/logos/12.png");
+    --sendmessage-text-lines: 8;
+
+    /* COLORS */
+    --Primary: #2a3d89;
+    --Text: #e9becd;
+    --text-shadow: #061d41;
+    --Highlighted:  #2a3d8980;
+    --MessageHover: #00000033;
+    --Unread: #ad1010;
+
+    /* STATUS */
+    --Online: #00ff06;
+    --Idle: #1264ef;
+    --Unavailable: #e40f00;
+    --Offline: #5a5f64;
+    --Streaming: #6e00c4;
+
+    /* UI */
+    --grey: #12131f;
+    --grey5: #12131fbf;
+    --darkgrey: #0a0a14;
+    --darkgrey5: #0a0a14bf;
+    --ui-success: #45d022;
+    --ui-warning: #eea51e;
+    --ui-error: #d02222;
+    --Hover: #12131f80;
+
+    /* BACKGROUNDS */
+    --bg-titlebar: #000000a6;
+    --bg-servers: #000000a6;
+    --bg-ui: #000000a6;
+    --bg-chatbox: #00000080;
+    --bg-sendmessage: #000000a6;
+    --bg-members: #000000a6;
+    --bg-chat-elements: #12131f80;
+    --bg-user-area: #000000a6;
+    --bg-settings: #0a0a14bf;
+    --bg-colorprofile: #00000080;
+    --bg-alt-message: #00000000;
+    --background: url("https://github.com/Invento707/Backgrounds/blob/main/counter-strike-source-aaqgi27vu0hzy6jj.jpg?raw=true");
+
+    /* RGB */
+    --ColorTime: 5s;
+    --Color2: #000000;
+    --Color3: #000000;
+    --Color4: #000000;
+    --Color5: #000000;
+    --Color6: #000000;
+    --Color7: #000000;
+    --Color8: #000000;
+    --Color9: #000000;
+    --Color10: #000000;
+
+    /* MISCS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
+    --Rounding: 5px;
+    --AvatarRounding: 5px;
+    --Show_Gift_Button: none;
+    --Show_GIF_Button: none;
+    --Show_Sticker_Button: none;
+    --Show_Apps_Button: flex;
+}
+
+
+/* Theme generated using WizardUI Theme Generator v1.5 */
