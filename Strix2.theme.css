@@ -1,0 +1,102 @@
+/**
+* @name Strix Finale
+* @author Swan
+* @authorLink https://github.com/Invento707
+* @version 1.5
+* @invite SBuYeHh
+* @description Republic of Gamers
+* @website https://github.com/Invento707
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); 
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreBackgrounds/1.css"); 
+
+:root {
+    /* GENERAL */
+    --AppName: "Strix2";
+    --Watermark: "Swans Machine";
+    --font: "Montserrat", "emoji", sans-serif;
+    --logo: url("https://goldenlys.github.io/WizardUI/images/logos/28.png");
+    --sendmessage-text-lines: 8;
+
+    /* COLORS */
+    --Primary: #10afb1;
+    --Text: #afefe2;
+    --text-shadow: #697fab;
+    --Highlighted:  #10afb180;
+    --MessageHover: #00000000;
+    --Unread: #ad1010;
+
+    /* STATUS */
+    --Online: #00ff06;
+    --Idle: #1264ef;
+    --Unavailable: #e40f00;
+    --Offline: #5a5f64;
+    --Streaming: #6e00c4;
+
+    /* UI */
+    --grey: #000000;
+    --grey5: #000000bf;
+    --darkgrey: #000000;
+    --darkgrey5: #000000bf;
+    --ui-success: #45d022;
+    --ui-warning: #eea51e;
+    --ui-error: #d02222;
+    --Hover: #00000080;
+
+    /* BACKGROUNDS */
+    --bg-titlebar: #000000a6;
+    --bg-servers: #000000a6;
+    --bg-ui: #000000a6;
+    --bg-chatbox: #00000080;
+    --bg-sendmessage: #000000a6;
+    --bg-members: #000000a6;
+    --bg-chat-elements: #00000080;
+    --bg-user-area: #000000a6;
+    --bg-settings: #000000bf;
+    --bg-colorprofile: #00000080;
+    --bg-alt-message: #00000000;
+    --background: url("https://github.com/Invento707/Backgrounds/blob/main/ROG_Strix_SCAR_SE_wallpaper_FHD.jpg?raw=true");
+
+    /* RGB */
+    --ColorTime: 5s;
+    --Color2: #000000;
+    --Color3: #000000;
+    --Color4: #000000;
+    --Color5: #000000;
+    --Color6: #000000;
+    --Color7: #000000;
+    --Color8: #000000;
+    --Color9: #000000;
+    --Color10: #000000;
+
+    /* EMB */
+    --BackgroundTime: 60s;
+    --EMB_1: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_2: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_3: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_4: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_5: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_6: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_7: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_8: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_9: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+
+    /* MISCS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
+    --Rounding: 5px;
+    --AvatarRounding: 5px;
+    --Show_Gift_Button: none;
+    --Show_GIF_Button: none;
+    --Show_Sticker_Button: none;
+    --Show_Apps_Button: flex;
+}
+
+
+/* Theme generated using WizardUI Theme Generator v1.6 */
